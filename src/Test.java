@@ -23,10 +23,10 @@ public class Test {
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
 		Clusterisation c=new Clusterisation();
-		c.LoadData("exemple2");
+		c.LoadData("exemple1");
 		//c.LoadDatabis("ListeDesMoyennes");
 		int k1=2;
-		c.Solve(k1,3);
+		c.Solve(k1,2);
 		XYSeriesCollection dataset = new XYSeriesCollection();
 		// Create a simple XY chart
 		for(int i=0;i<k1;i++){
